@@ -285,7 +285,7 @@ http_archive(
 )
 
 # TF on 2024-09-24
-_TENSORFLOW_GIT_COMMIT = "5329ec8dd396487982ef3e743f98c0195af39a6b"
+_TENSORFLOW_GIT_COMMIT = "a51c7a627a7a9027733ff63124e8cf041d488d3d"
 
 # curl -L https://github.com/tensorflow/tensorflow/archive/<COMMIT>.tar.gz | shasum -a 256
 _TENSORFLOW_SHA256 = "eb1f8d740d59ea3dee91108ab1fc19d91c4e9ac2fd17d9ab86d865c3c43d81c9"
@@ -306,7 +306,7 @@ http_archive(
     sha256 = _TENSORFLOW_SHA256,
     strip_prefix = "tensorflow-%s" % _TENSORFLOW_GIT_COMMIT,
     urls = [
-        "https://github.com/tensorflow/tensorflow/archive/%s.tar.gz" % _TENSORFLOW_GIT_COMMIT,
+        "https://github.com/jaysc5/tensorflow/archive/%s.tar.gz" % _TENSORFLOW_GIT_COMMIT,
     ],
 )
 
