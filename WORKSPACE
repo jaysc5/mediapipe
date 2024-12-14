@@ -288,7 +288,7 @@ http_archive(
 _TENSORFLOW_GIT_COMMIT = "a51c7a627a7a9027733ff63124e8cf041d488d3d"
 
 # curl -L https://github.com/tensorflow/tensorflow/archive/<COMMIT>.tar.gz | shasum -a 256
-_TENSORFLOW_SHA256 = "eb1f8d740d59ea3dee91108ab1fc19d91c4e9ac2fd17d9ab86d865c3c43d81c9"
+_TENSORFLOW_SHA256 = "8fe9114c7411b2121d7704634f064d0498c791e99f40dc41b7f6e7e84507b525"
 
 http_archive(
     name = "org_tensorflow",
